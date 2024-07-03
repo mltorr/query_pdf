@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the tab-delimited file into a DataFrame
-file_path = r'C:\Users\Advali\Documents\food\extracted_texts.tsv'
+file_path = r'C:\Users\Advali\Documents\food\consolidated_texts.tsv'
 df = pd.read_csv(file_path, delimiter='\t')
 
 # Streamlit interface
